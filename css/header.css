@@ -1,6 +1,7 @@
 .header {
 	padding: 0.9375rem 0rem;
 	position: absolute;
+	z-index: 50;
 	width: 100%;
 	top: 0;
 	left: 0;
@@ -62,6 +63,10 @@
 }
 
 @media (max-width: 47.9375em) {
+	.header__container {
+		min-height: 3rem;
+	}
+
 	.menu__list {
 		gap: 0.4rem 2rem;
 	}
