@@ -14,7 +14,7 @@
 		<div class="wrapper">
 			<header class="header">
 				<div class="header__container">
-					<a href="index.html" class="header__logo">SmartSpace</a>
+					<a href="index.html" class="header__logo logo">SmartSpace</a>
 					<div class="header__menu menu">
 						<button type="button" class="menu__icon icon-menu">
 							<span></span>
@@ -699,11 +699,14 @@
 						</div>
 						<form action="#" class="subscribe__form form-subscribe">
 							<div class="form-subscribe__inner">
-								<label for="#" class="form-subscribe__label"
+								<label for="subscribeInput" class="form-subscribe__label"
 									>Type your Email Address</label
 								>
 								<input
 									type="email"
+									id="subscribeInput"
+									name="email"
+									autocomplete="off"
 									class="form-subscribe__input"
 									placeholder="shakir260@gmail.com"
 									required
@@ -716,7 +719,40 @@
 					</div>
 				</section>
 			</main>
-			<footer class="footer"></footer>
+			<footer class="footer">
+				<div class="footer__wrapper">
+					<div class="footer__header">
+						<a href="index.html" class="footer__logo logo">SmartSpace</a>
+						<div class="footer__menu menu">
+							<nav class="menu__body">
+								<ul class="menu__list">
+									<li class="menu__item">
+										<a href="#" class="menu__link">Home</a>
+									</li>
+									<li class="menu__item">
+										<a href="#" class="menu__link">About</a>
+									</li>
+									<li class="menu__item">
+										<a href="#" class="menu__link">Service</a>
+									</li>
+									<li class="menu__item">
+										<a href="#" class="menu__link">Portfolio</a>
+									</li>
+									<li class="menu__item">
+										<a href="#" class="menu__link">Blog</a>
+									</li>
+									<li class="menu__item">
+										<a href="#" class="menu__link">Contact</a>
+									</li>
+								</ul>
+							</nav>
+						</div>
+					</div>
+					<div class="footer__copy">
+						Copyright &copy; 2021 AR Shakir . All Rights Reseved.
+					</div>
+				</div>
+			</footer>
 		</div>
 
 		<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
